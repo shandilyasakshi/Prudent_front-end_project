@@ -1,0 +1,40 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Budgets — Prudent</title><link rel="stylesheet" href="styles.css"></head><body><div class="app-shell">
+        <aside class="sidebar" id="sidebar">
+          <div class="logo"><span class="logo-mark">ϟ</span>Prudent</div>
+          <div class="side-group">
+            <div class="side-label">Workspace</div>
+            <a class="side-link " href="dashboard.html">⌂ <span>Overview</span></a>
+            <a class="side-link " href="transactions.html">↔ <span>Transactions</span></a>
+            <a class="side-link active" href="budgets.html">◫ <span>Budgets</span></a>
+            <a class="side-link " href="analytics.html">⌁ <span>Analytics</span></a>
+            <a class="side-link " href="goals-settings.html">◎ <span>Goals</span></a>
+          </div>
+          <div class="side-group">
+            <div class="side-label">Account</div>
+            <a class="side-link " href="goals-settings.html#settings">⚙ <span>Settings</span></a>
+          </div>
+        </aside>
+        <div class="app-main">
+          <header class="topbar">
+            <div style="display:flex;align-items:center;gap:10px">
+              <button class="theme-btn mobile-menu" data-menu>☰</button>
+              <label class="search">⌕ <input placeholder="Search anything..." /></label>
+            </div>
+            <div class="top-actions">
+              <button class="theme-btn" data-theme-toggle>☾</button>
+              <button class="theme-btn" data-toast="No new notifications">♧</button>
+              <div class="avatar">SS</div>
+            </div>
+          </header>
+          <main class="page">
+<div class="page-title"><div><h1>Your Budgets</h1><p>Give every category a limit that works for you.</p></div><button class="btn btn-primary" data-toast="Create Budget opened">+ Create Budget</button></div>
+<div class="panel" style="margin-bottom:14px"><div class="panel-title"><h3>Monthly Budget Summary</h3><span>April 2025</span></div><div class="stat-grid"><div><small style="color:var(--muted)">Monthly budget</small><strong style="display:block;font-size:22px">₹10,000</strong></div><div><small style="color:var(--muted)">Spent</small><strong style="display:block;font-size:22px">₹7,200</strong></div><div><small style="color:var(--muted)">Remaining</small><strong style="display:block;font-size:22px;color:var(--mint)">₹2,800</strong></div><div><small style="color:var(--muted)">Used</small><strong style="display:block;font-size:22px">72%</strong></div></div><div class="progress" style="margin-top:14px"><span style="width:72%"></span></div></div>
+<div class="budget-grid">
+<div class="budget-card"><div class="budget-top"><div class="category-icon">🍜</div><div><h3>Food</h3><p>Meals & canteen</p></div><button class="btn-ghost" style="margin-left:auto">✎</button></div><div class="budget-values"><b>₹2,650</b><span>/ ₹3,000</span></div><div class="progress red"><span style="width:88%"></span></div><div class="budget-percent">88% used</div></div>
+<div class="budget-card"><div class="budget-top"><div class="category-icon" style="background:#E7F0FF">🚕</div><div><h3>Transport</h3><p>Cab, metro & bus</p></div><button class="btn-ghost" style="margin-left:auto">✎</button></div><div class="budget-values"><b>₹900</b><span>/ ₹1,500</span></div><div class="progress"><span style="width:60%"></span></div><div class="budget-percent">60% used</div></div>
+<div class="budget-card"><div class="budget-top"><div class="category-icon" style="background:#FFF3D4">🎮</div><div><h3>Entertainment</h3><p>Movies, games & subscriptions</p></div><button class="btn-ghost" style="margin-left:auto">✎</button></div><div class="budget-values"><b>₹1,750</b><span>/ ₹2,000</span></div><div class="progress yellow"><span style="width:87%"></span></div><div class="budget-percent">87% used</div></div>
+<div class="budget-card"><div class="budget-top"><div class="category-icon" style="background:#FBE8F7">🛍</div><div><h3>Shopping</h3><p>Personal purchases</p></div><button class="btn-ghost" style="margin-left:auto">✎</button></div><div class="budget-values"><b>₹1,200</b><span>/ ₹2,500</span></div><div class="progress"><span style="width:48%"></span></div><div class="budget-percent">48% used</div></div>
+</div>
+</main>
+        </div>
+        </div><div id="toast" class="toast"></div><script src="script.js"></script></body></html>

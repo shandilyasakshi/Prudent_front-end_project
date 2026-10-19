@@ -1,0 +1,52 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Dashboard — Prudent</title><link rel="stylesheet" href="styles.css"></head><body><div class="app-shell">
+        <aside class="sidebar" id="sidebar">
+          <div class="logo"><span class="logo-mark">ϟ</span>Prudent</div>
+          <div class="side-group">
+            <div class="side-label">Workspace</div>
+            <a class="side-link active" href="dashboard.html">⌂ <span>Overview</span></a>
+            <a class="side-link " href="transactions.html">↔ <span>Transactions</span></a>
+            <a class="side-link " href="budgets.html">◫ <span>Budgets</span></a>
+            <a class="side-link " href="analytics.html">⌁ <span>Analytics</span></a>
+            <a class="side-link " href="goals-settings.html">◎ <span>Goals</span></a>
+          </div>
+          <div class="side-group">
+            <div class="side-label">Account</div>
+            <a class="side-link " href="goals-settings.html#settings">⚙ <span>Settings</span></a>
+          </div>
+        </aside>
+        <div class="app-main">
+          <header class="topbar">
+            <div style="display:flex;align-items:center;gap:10px">
+              <button class="theme-btn mobile-menu" data-menu>☰</button>
+              <label class="search">⌕ <input placeholder="Search anything..." /></label>
+            </div>
+            <div class="top-actions">
+              <button class="theme-btn" data-theme-toggle>☾</button>
+              <button class="theme-btn" data-toast="No new notifications">♧</button>
+              <div class="avatar">SS</div>
+            </div>
+          </header>
+          <main class="page">
+<div class="page-title"><div><h1>Good morning, Sakshi 👋</h1><p>Here's your financial overview for this month.</p></div><button class="btn btn-primary" data-modal-open="addTransactionModal">+ Add transaction</button></div>
+<div class="stat-grid">
+<div class="stat"><div class="stat-top"><span>Total Balance</span><span class="stat-icon" style="background:#EEEAFE;color:var(--primary)">₹</span></div><strong>₹24,580</strong><small class="positive">↑ 12% from last month</small></div>
+<div class="stat"><div class="stat-top"><span>Income</span><span class="stat-icon" style="background:#E2F8F2;color:var(--mint)">↗</span></div><strong>₹18,000</strong><small class="positive">↑ 5% from last month</small></div>
+<div class="stat"><div class="stat-top"><span>Expenses</span><span class="stat-icon" style="background:#FCE8E8;color:var(--coral)">↘</span></div><strong>₹11,420</strong><small class="negative">↑ 8% from last month</small></div>
+<div class="stat"><div class="stat-top"><span>Savings</span><span class="stat-icon" style="background:#FFF3D4;color:#A87800">◎</span></div><strong>₹6,580</strong><small class="positive">↑ 15% from last month</small></div>
+</div>
+<div class="dashboard-grid">
+<div class="panel wide"><div class="panel-title"><h3>Spending overview</h3><span>Apr 2025</span></div><div class="big-chart"><i class="big-bar" style="height:45%"></i><i class="big-bar" style="height:58%"></i><i class="big-bar" style="height:38%"></i><i class="big-bar" style="height:74%"></i><i class="big-bar" style="height:61%"></i><i class="big-bar" style="height:82%"></i><i class="big-bar" style="height:68%"></i></div></div>
+<div class="panel"><div class="panel-title"><h3>Budget progress</h3><span>View all</span></div><div class="budget-row"><div class="budget-head"><span>🍜 Food</span><b>88%</b></div><div class="progress green"><span style="width:88%"></span></div></div><div class="budget-row"><div class="budget-head"><span>🚕 Transport</span><b>60%</b></div><div class="progress"><span style="width:60%"></span></div></div><div class="budget-row"><div class="budget-head"><span>🎮 Entertainment</span><b>87%</b></div><div class="progress yellow"><span style="width:87%"></span></div></div><div class="budget-row"><div class="budget-head"><span>🛍 Shopping</span><b>48%</b></div><div class="progress"><span style="width:48%"></span></div></div></div>
+<div class="panel"><div class="panel-title"><h3>Income vs expenses</h3><span>4 months</span></div><div class="line-chart"><svg viewBox="0 0 300 180" preserveAspectRatio="none"><polyline fill="none" stroke="#6C5CE7" stroke-width="4" points="0,130 55,110 110,115 165,75 220,80 300,42"/><polyline fill="none" stroke="#F06464" stroke-width="4" points="0,150 55,142 110,130 165,120 220,126 300,105"/></svg></div></div>
+<div class="panel"><div class="panel-title"><h3>Recent transactions</h3><a href="transactions.html" style="font-size:11px;color:var(--primary)">View all</a></div><div class="tx-list">
+<div class="tx"><span class="tx-icon">🍜</span><div><div class="tx-name">College Canteen</div><div class="tx-meta">Food · Yesterday</div></div><span class="tx-amt negative">-₹120</span></div>
+<div class="tx"><span class="tx-icon">🎧</span><div><div class="tx-name">Netflix</div><div class="tx-meta">Entertainment · Yesterday</div></div><span class="tx-amt negative">-₹199</span></div>
+<div class="tx"><span class="tx-icon">↗</span><div><div class="tx-name">Freelance Payment</div><div class="tx-meta">Income · 10 Apr</div></div><span class="tx-amt positive">+₹5,000</span></div>
+<div class="tx"><span class="tx-icon">🚕</span><div><div class="tx-name">Uber</div><div class="tx-meta">Transport · 09 Apr</div></div><span class="tx-amt negative">-₹180</span></div>
+</div></div>
+<div class="panel"><div class="panel-title"><h3>Smart insight</h3><span>✦</span></div><div style="font-size:17px;font-weight:750;line-height:1.3">You spent 18% more on food this month.</div><p style="font-size:11px;color:var(--muted)">Try setting a weekly food limit to stay closer to your target.</p><a class="btn btn-primary" href="analytics.html">View insights</a></div>
+</div>
+<div class="modal-backdrop" id="addTransactionModal"><div class="modal"><div class="modal-head"><h2>Add transaction</h2><button class="close" data-modal-close>×</button></div><form id="addTransactionForm"><div class="form-row" style="justify-content:flex-start;gap:8px"><label class="check"><input type="radio" name="type" checked> Expense</label><label class="check"><input type="radio" name="type"> Income</label></div><div class="form-group"><label>Amount</label><input class="input" placeholder="₹0.00" required></div><div class="form-group"><label>Category</label><select class="select"><option>Food</option><option>Transport</option><option>Entertainment</option><option>Shopping</option><option>Other</option></select></div><div class="form-group"><label>Date</label><input class="input" type="date"></div><div class="form-group"><label>Payment method</label><select class="select"><option>UPI</option><option>Card</option><option>Cash</option></select></div><div class="form-group"><label>Description</label><input class="input" placeholder="Add a note"></div><div style="display:flex;justify-content:flex-end;gap:8px"><button type="button" class="btn btn-secondary" data-modal-close>Cancel</button><button class="btn btn-primary">Add</button></div></form></div></div>
+</main>
+        </div>
+        </div><div id="toast" class="toast"></div><script src="script.js"></script></body></html>
