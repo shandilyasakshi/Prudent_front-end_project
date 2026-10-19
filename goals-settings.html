@@ -1,0 +1,49 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Goals + Settings — Prudent</title><link rel="stylesheet" href="styles.css"></head><body><div class="app-shell">
+        <aside class="sidebar" id="sidebar">
+          <div class="logo"><span class="logo-mark">ϟ</span>Prudent</div>
+          <div class="side-group">
+            <div class="side-label">Workspace</div>
+            <a class="side-link " href="dashboard.html">⌂ <span>Overview</span></a>
+            <a class="side-link " href="transactions.html">↔ <span>Transactions</span></a>
+            <a class="side-link " href="budgets.html">◫ <span>Budgets</span></a>
+            <a class="side-link " href="analytics.html">⌁ <span>Analytics</span></a>
+            <a class="side-link active" href="goals-settings.html">◎ <span>Goals</span></a>
+          </div>
+          <div class="side-group">
+            <div class="side-label">Account</div>
+            <a class="side-link " href="goals-settings.html#settings">⚙ <span>Settings</span></a>
+          </div>
+        </aside>
+        <div class="app-main">
+          <header class="topbar">
+            <div style="display:flex;align-items:center;gap:10px">
+              <button class="theme-btn mobile-menu" data-menu>☰</button>
+              <label class="search">⌕ <input placeholder="Search anything..." /></label>
+            </div>
+            <div class="top-actions">
+              <button class="theme-btn" data-theme-toggle>☾</button>
+              <button class="theme-btn" data-toast="No new notifications">♧</button>
+              <div class="avatar">SS</div>
+            </div>
+          </header>
+          <main class="page">
+<div class="page-title"><div><h1>Goals + Settings</h1><p>Build your targets and control your account.</p></div><button class="btn btn-primary" data-toast="Create Goal opened">+ Create Goal</button></div>
+<div class="goals-settings">
+<div class="panel"><div class="panel-title"><h3>Your Goals</h3><span>4 active</span></div>
+<div class="goal"><div class="goal-top"><span class="goal-name">◎ Emergency Fund</span><span class="goal-amt">₹20,000</span></div><div class="goal-meta"><span>Current ₹12,500</span><span>62%</span></div><div class="progress green"><span style="width:62%"></span></div></div>
+<div class="goal"><div class="goal-top"><span class="goal-name">▣ New Laptop</span><span class="goal-amt">₹70,000</span></div><div class="goal-meta"><span>Current ₹24,500</span><span>35%</span></div><div class="progress"><span style="width:35%"></span></div></div>
+<div class="goal"><div class="goal-top"><span class="goal-name">✈ Trip to Himachal</span><span class="goal-amt">₹20,000</span></div><div class="goal-meta"><span>Current ₹10,000</span><span>50%</span></div><div class="progress yellow"><span style="width:50%"></span></div></div>
+<div class="goal"><div class="goal-top"><span class="goal-name">◉ Course</span><span class="goal-amt">₹15,000</span></div><div class="goal-meta"><span>Current ₹3,000</span><span>20%</span></div><div class="progress"><span style="width:20%"></span></div></div>
+</div>
+<div class="panel" id="settings"><div class="panel-title"><h3>Settings</h3><span>Account</span></div><div class="settings-list">
+<div class="setting"><div><b>Profile</b><span>Sakshi Shandilya · sakshi@example.com</span></div><button class="btn btn-secondary">Edit</button></div>
+<div class="setting"><div><b>Currency</b><span>Indian Rupee (₹)</span></div><span>₹</span></div>
+<div class="setting"><div><b>Notifications</b><span>Budget and spending alerts</span></div><button class="toggle on" data-toggle><i></i></button></div>
+<div class="setting"><div><b>Theme</b><span>Switch between light and dark</span></div><button class="theme-btn" data-theme-toggle>☾</button></div>
+<div class="setting"><div><b>Security</b><span>Password and login methods</span></div><span>›</span></div>
+<div class="setting"><div><b>Data export</b><span>Download your transaction data</span></div><button class="btn btn-secondary" data-toast="Export started">Export</button></div>
+<div class="setting"><div><b>Delete account</b><span>Permanently remove your data</span></div><button class="btn btn-outline" style="color:var(--coral)">Delete</button></div>
+</div></div></div>
+</main>
+        </div>
+        </div><div id="toast" class="toast"></div><script src="script.js"></script></body></html>

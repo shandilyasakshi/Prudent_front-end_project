@@ -1,0 +1,41 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Analytics — Prudent</title><link rel="stylesheet" href="styles.css"></head><body><div class="app-shell">
+        <aside class="sidebar" id="sidebar">
+          <div class="logo"><span class="logo-mark">ϟ</span>Prudent</div>
+          <div class="side-group">
+            <div class="side-label">Workspace</div>
+            <a class="side-link " href="dashboard.html">⌂ <span>Overview</span></a>
+            <a class="side-link " href="transactions.html">↔ <span>Transactions</span></a>
+            <a class="side-link " href="budgets.html">◫ <span>Budgets</span></a>
+            <a class="side-link active" href="analytics.html">⌁ <span>Analytics</span></a>
+            <a class="side-link " href="goals-settings.html">◎ <span>Goals</span></a>
+          </div>
+          <div class="side-group">
+            <div class="side-label">Account</div>
+            <a class="side-link " href="goals-settings.html#settings">⚙ <span>Settings</span></a>
+          </div>
+        </aside>
+        <div class="app-main">
+          <header class="topbar">
+            <div style="display:flex;align-items:center;gap:10px">
+              <button class="theme-btn mobile-menu" data-menu>☰</button>
+              <label class="search">⌕ <input placeholder="Search anything..." /></label>
+            </div>
+            <div class="top-actions">
+              <button class="theme-btn" data-theme-toggle>☾</button>
+              <button class="theme-btn" data-toast="No new notifications">♧</button>
+              <div class="avatar">SS</div>
+            </div>
+          </header>
+          <main class="page">
+<div class="page-title"><div><h1>Your Spending Insights</h1><p>Understand the story behind your numbers.</p></div><select class="filter"><option>Month</option><option>Week</option><option>3 Months</option><option>Year</option></select></div>
+<div class="analytics-grid">
+<div class="panel"><div class="panel-title"><h3>Spending by category</h3><span>₹11,420 total</span></div><div class="donut-large"></div><div class="legend"><div><i></i>Food · 36%</div><div><i class="c2"></i>Transport · 16%</div><div><i class="c3"></i>Entertainment · 15%</div><div><i class="c4"></i>Shopping · 12%</div></div></div>
+<div class="panel"><div class="panel-title"><h3>Monthly spending</h3><span>Jan–Apr</span></div><div class="big-chart" style="height:260px"><i class="big-bar" style="height:48%"></i><i class="big-bar" style="height:63%"></i><i class="big-bar" style="height:54%"></i><i class="big-bar" style="height:78%"></i></div></div>
+<div class="panel"><div class="panel-title"><h3>Income vs expenses</h3><span>4 months</span></div><div class="line-chart" style="height:260px"><svg viewBox="0 0 500 220" preserveAspectRatio="none"><polyline fill="none" stroke="#6C5CE7" stroke-width="5" points="0,175 90,145 170,155 260,100 350,115 500,55"/><polyline fill="none" stroke="#F06464" stroke-width="5" points="0,190 90,178 170,160 260,145 350,150 500,112"/></svg></div></div>
+<div class="panel"><div class="panel-title"><h3>Savings trend</h3><span>Target ₹20k</span></div><div class="line-chart" style="height:260px"><svg viewBox="0 0 500 220" preserveAspectRatio="none"><polyline fill="none" stroke="#18B89A" stroke-width="5" points="0,190 80,170 160,155 240,125 320,105 400,80 500,45"/></svg></div></div>
+<div class="panel"><div class="panel-title"><h3>Budget performance</h3></div><div class="budget-row"><div class="budget-head"><span>Food</span><b>88%</b></div><div class="progress red"><span style="width:88%"></span></div></div><div class="budget-row"><div class="budget-head"><span>Transport</span><b>60%</b></div><div class="progress"><span style="width:60%"></span></div></div><div class="budget-row"><div class="budget-head"><span>Entertainment</span><b>87%</b></div><div class="progress yellow"><span style="width:87%"></span></div></div><div class="budget-row"><div class="budget-head"><span>Shopping</span><b>48%</b></div><div class="progress"><span style="width:48%"></span></div></div></div>
+<div class="panel"><div class="panel-title"><h3>Key insights</h3><span>✦</span></div><div class="insights"><div class="insight"><div class="icon-box icon-pink" style="margin:0;width:32px;height:32px">!</div><div><b>Food is your biggest expense.</b><p>It makes up 36% of spending.</p></div></div><div class="insight"><div class="icon-box icon-green" style="margin:0;width:32px;height:32px">↘</div><div><b>Spending decreased 12%.</b><p>You're improving month over month.</p></div></div><div class="insight"><div class="icon-box icon-blue" style="margin:0;width:32px;height:32px">₹</div><div><b>You're on track to save ₹4,200.</b><p>Keep your current pace.</p></div></div><div class="insight"><div class="icon-box icon-yellow" style="margin:0;width:32px;height:32px">◷</div><div><b>Weekend spending is 28% higher.</b><p>Watch impulse purchases.</p></div></div></div></div>
+</div>
+</main>
+        </div>
+        </div><div id="toast" class="toast"></div><script src="script.js"></script></body></html>
