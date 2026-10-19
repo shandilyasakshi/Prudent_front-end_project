@@ -37,11 +37,11 @@ The interface uses a consistent design system with:
 
 1. Clone the repository
 
-git clone https://github.com/shandilyasakshi/prudent.git
+git clone https://github.com/shandilyasakshi/Prudent_front-end_project
 
 2. Open the project folder
 
-cd prudent
+cd Prudent_front-end_project
 
 3. Run the application
 
